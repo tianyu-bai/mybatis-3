@@ -1054,7 +1054,7 @@ JDBC 类型，所支持的 JDBC 类型参见这个表格之前的“支持的 JD
 
         <h4>关联</h4>
 
-        <source><![CDATA[<association property="author" column="blog_author_id" javaType="Author">
+        <source><![CDATA[<association property="author" javaType="Author">
   <id property="id" column="author_id"/>
   <result property="username" column="author_username"/>
 </association>]]></source>
